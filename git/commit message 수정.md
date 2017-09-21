@@ -47,5 +47,18 @@ pick c1892ab2e commit message 3
 ```
 
 5. 커밋 목록을 저장한 뒤 텍스트 에디터를 종료.<br>
-> `esc`키 누른 후, `:wq` 입력
+> `esc`키 누른 후, `:wq` 입력.
+
+
+* 텍스트 에디터: commit 관련 명령어
+```
+# Commands:
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+# d, drop = remove commit
+```
 
